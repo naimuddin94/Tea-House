@@ -6,15 +6,18 @@
     <title>Tea House</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- manrope font import link -->
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- daisy Ui link -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
       rel="stylesheet"
       type="text/css"
     />
+    <!-- tailwind link -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       .font-manrope {
@@ -23,9 +26,42 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header>
-        hello world
+    <header class="max-w-5xl mx-auto">
+      <div class="hero py-16">
+        <div class="hero-content flex-col lg:flex-row justify-center">
+          
+          <div class="text-center lg:text-left">
+            <h1 class="text-5xl lg:text-7xl font-extrabold">
+              It's good <br>
+            tea time at The <br>
+            Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button class="btn font-bold bg-gradient-to-r from-[#F00] to-[#FF8938] text-white hover:bg-none hover:text-gray-800 hover:border-[1.5px] hover:border-orange-400">
+                Explore More
+                <img src="./images/arrow.png" alt="">
+            </button>
+          </div>
+          <div class="">
+            <div>
+                <img src="/images/banner.png" class="max-w-sm" />
+            </div>
+            <div class="flex items-center gap-3 py-4 px-8 drop-shadow-lg rounded-md bg-white w-fit -mt-20">
+                <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                <div>
+                    <h2 class="text-2xl font-black">5.00</h2>
+                    <p class="text-xs text-gray-600">Trust Pilot Ratings</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main></main>
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/40da276710.js" crossorigin="anonymous"></script>
   </body>
 </html>
